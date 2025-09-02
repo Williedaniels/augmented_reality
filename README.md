@@ -69,7 +69,3 @@ This project uses Python and OpenCV. You will need Python 3 and pip installed.
 * `tests/`: (Optional) For unit tests.
 * `requirements.txt`: The Python dependencies for the project.
 * `README.md`: This file.
-
-## Acknowledgments
-
-This project was inspired by the tutorials and resources in the [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) repository. The AR implementation is based on the concepts from the "Augmented reality with Python and OpenCV" tutorial by Bites of code.
