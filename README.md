@@ -20,24 +20,36 @@ This project uses Python and OpenCV. You will need Python 3 and pip installed.
 
 1. **Clone the repository or download the source code.**
 2. **Navigate to the `augmented_reality` directory.**
-3. **Install the dependencies:**
+3. **Create and activate a virtual environment (recommended):**
+
+   This ensures that the project's dependencies are isolated from your system's Python environment.
 
     ```bash
-    pip install -r requirements.txt
+   python3 -m venv venv
+   source venv/bin/activate
+   # On Windows, use: venv\Scripts\activate
     ```
 
-4. **Run the AR application:**
+4. **Install the dependencies:**
+
+   With the virtual environment activated, install the required packages.
 
     ```bash
-    python src/ar_app.py
+   pip install -r requirements.txt
+    ```
+
+5. **Run the AR application:**
+
+    ```bash
+   python src/ar_app.py
     ```
 
     This will start the real-time AR application using your webcam. Point your camera at one of the markers in the `markers/` directory to see the 3D models.
 
-5. **Run the test script (no camera needed):**
+6. **Run the test script (no camera needed):**
 
     ```bash
-    python examples/test_ar_system.py
+   python examples/test_ar_system.py
     ```
 
     This will run a comprehensive test of all AR components and save the output to the `examples/test_output/` directory.
